@@ -39,3 +39,13 @@ function countCats(arr) {
 
 * [Construct](https://andreygp5.github.io/construct-template/)
 * [Dictionary app](https://github.com/andreygp5/Dictionary-Flask)
+
+## Education
+
+* DonNTU (Donetsk National Technical University), Software engineering (2nd year)
+* MDN Front-end developer course (HTML and CSS topics)
+* Learn Java Script book
+* Solutions Intermediate book
+
+## English
+C2 according to [EFSET](https://www.efset.org/cert/b5WEpD), but I evaluate my level as B1.
