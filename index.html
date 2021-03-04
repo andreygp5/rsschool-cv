@@ -10,6 +10,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
     <title>CV</title>
   </head>
   <body>
@@ -104,6 +112,26 @@
           </ul>
         </div>
       </section>
+      <section class="code-example">
+        <div class="container">
+          <h2 class="title">Code Example</h2>
+          <div class="text">
+            <pre>
+            <code>
+  function countCats(arr) { 
+    let catCounter = 0; 
+    for (let subArr of arr) { 
+      for (let value of subArr) { 
+        if (value === "^^") { catCounter++; 
+        } 
+      } 
+    } return catCounter; 
+  };
+            </code>
+          </pre>
+          </div>
+        </div>
+      </section>
       <section class="education">
         <div class="container">
           <h2 class="title">Education</h2>
@@ -125,14 +153,34 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <ul class="contacts footer__contacts">
-          <li class="contacts__item footer__item">
-            <img class="contacts__icon" src="./img/git-icon.svg" alt="GitHub" />
+        <ul class="contacts footer__item">
+          <li class="contacts__item">
             <a class="contacts__link" href="https://github.com/andreygp5" target="_blank"
-              >andreygp5</a
+              ><img class="contacts__icon" src="./img/git-icon.svg" alt="GitHub" />andreygp5</a
             >
           </li>
         </ul>
+        <ul class="school-info footer__item">
+          <li class="school-info__item">
+            <a class="school-info__link" href="https://rs.school/js/" target="_blank">
+              <img
+                class="school-info__icon"
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="GitHub"
+              />
+            </a>
+          </li>
+          <li class="school-info__item youtube">
+            <a class="youtube__link" href="#" target="_blank">
+              <img
+                class="youtube__icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg"
+                alt="GitHub"
+              />
+            </a>
+          </li>
+        </ul>
+        <h5 class="footer__item create-year">2021</h5>
       </div>
     </footer>
   </body>
