@@ -192,12 +192,12 @@ body {
 .project__photo {
   max-width: 100%;
 
-  filter: blur(0px) brightness(1);
+  filter: brightness(1);
 
   transition: filter 1s;
 }
 .projects__item:hover .project__photo {
-  filter: blur(8px) brightness(0.4);
+  filter: brightness(0.2);
 }
 .project__title {
   position: absolute;
